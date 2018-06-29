@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b3a42cf65fb5414a83ed88204756863, type: 3}
-  m_Name: Element_005
+  m_Name: Wood
   m_EditorClassIdentifier: 
-  m_id: Element_005
-  m_name: Wood
+  m_id: Wood
   m_icon: {fileID: 0}
+  m_description: 

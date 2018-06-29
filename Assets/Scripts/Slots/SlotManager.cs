@@ -64,12 +64,12 @@ public class SlotManager : Singleton<SlotManager>
 
 		if(mergeSlotsFilled)
 		{
-			Debug.Log(string.Format("Slot 1: {0}, Slot 2: {1}", m_mergeSlots[0].GetElement().m_name, m_mergeSlots[1].GetElement().m_name));
+			Debug.Log(string.Format("Slot 1: {0}, Slot 2: {1}", m_mergeSlots[0].GetElement().m_id, m_mergeSlots[1].GetElement().m_id));
 			var createdElement = m_elementManager.CheckMerge(m_mergeSlots[0].GetElement(), m_mergeSlots[1].GetElement());
 
 			if(createdElement != null)
 			{
-				Debug.Log(string.Format("You created: {0}!", createdElement.m_name));
+				Debug.Log(string.Format("You created: {0}!", createdElement.m_id));
 
 				if(!m_elementManager.CheckCollected(createdElement))
 				{

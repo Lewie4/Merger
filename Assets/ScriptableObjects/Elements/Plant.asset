@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b3a42cf65fb5414a83ed88204756863, type: 3}
-  m_Name: Element_003
+  m_Name: Plant
   m_EditorClassIdentifier: 
-  m_id: Element_003
-  m_name: Stone
+  m_id: Plant
   m_icon: {fileID: 0}
+  m_description: 

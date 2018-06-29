@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Combination_001", menuName = "Element/Create Base Combination")]
+[CreateAssetMenu(fileName = "Combination_001", menuName = "Merger/Create Base Combination")]
 public class BaseCombination : ScriptableObject
 {
 	public BaseElement m_element1;
