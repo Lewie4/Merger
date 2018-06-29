@@ -76,11 +76,20 @@ public class BaseElementHolder : EventTrigger
 	{
 		if(m_element.m_icon != null)
 		{
+			if(m_image == null)
+			{
+				GetImage();
+			}
 			m_image.sprite = m_element.m_icon;
 		}
 
 		m_startSlot = slot;
 		Reset();
+	}
+
+	private void GetImage()
+	{
+		m_image = GetComponent<Image>();
 	}
 
 	private void Reset()
