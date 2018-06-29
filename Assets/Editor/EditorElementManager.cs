@@ -27,6 +27,13 @@ public class EditorElementManager : Editor
 	{
 		List<BaseCombination> combinations = new List<BaseCombination>();
 
+		string[] guids = AssetDatabase.FindAssets("t:BaseCombination");
+
+		foreach(var guid in guids)
+		{
+			combinations.Add((BaseCombination)AssetDatabase.LoadAssetAtPath(AssetDatabase.GUIDToAssetPath(guid), typeof(BaseCombination)));
+		}
+
 		m_elementManager.SetAllCombinations(combinations);
 	}
 }
