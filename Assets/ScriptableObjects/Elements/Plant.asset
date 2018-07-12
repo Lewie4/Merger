@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_id: Plant
   m_icon: {fileID: 21300000, guid: bfd6d6ffa72361949bdc267087d9502d, type: 3}
-  m_description: 
+  m_description: A sproutling pokes itself out of the ground!

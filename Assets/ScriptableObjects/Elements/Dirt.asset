@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_id: Dirt
   m_icon: {fileID: 21300000, guid: e1cd673be60d56c4897ad876e511af33, type: 3}
-  m_description: 
+  m_description: Just dirt...

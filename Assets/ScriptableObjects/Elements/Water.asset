@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_id: Water
   m_icon: {fileID: 21300000, guid: 47c17af1ac827754a82f2c4128bcac55, type: 3}
-  m_description: 
+  m_description: Slippery when wet
