@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "Element_001", menuName = "Merger/Create Base Element")]
 public class BaseElement : ScriptableObject 
